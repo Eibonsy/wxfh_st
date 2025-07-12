@@ -1,0 +1,23 @@
+return
+{
+[1] = {Id=1,MapId=1,},
+[2] = {Id=2,MapId=2,},
+[3] = {Id=3,MapId=1,},
+[4] = {Id=4,MapId=2,},
+[5] = {Id=5,MapId=1,},
+[6] = {Id=6,MapId=2,},
+[7] = {Id=7,MapId=1,},
+[8] = {Id=8,MapId=2,},
+[9] = {Id=9,MapId=1,},
+[10] = {Id=10,MapId=2,},
+[11] = {Id=11,MapId=1,},
+[12] = {Id=12,MapId=2,},
+[13] = {Id=13,MapId=1,},
+[14] = {Id=14,MapId=2,},
+[15] = {Id=15,MapId=1,},
+[16] = {Id=16,MapId=2,},
+[17] = {Id=17,MapId=1,},
+[18] = {Id=18,MapId=2,},
+[19] = {Id=19,MapId=1,},
+[20] = {Id=20,MapId=2,},
+}

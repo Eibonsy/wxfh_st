@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11079_3_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{257,140}}</string>
+        <key>offset</key>
+        <string>{-55,15}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{257,140}}</string>
+        <key>sourceSize</key>
+        <string>{257,140}</string>
+      </dict>
+      <key>sfx_11079_3_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,259},{248,135}}</string>
+        <key>offset</key>
+        <string>{-50,12}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{248,135}}</string>
+        <key>sourceSize</key>
+        <string>{248,135}</string>
+      </dict>
+      <key>sfx_11079_3_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{250,0},{232,133}}</string>
+        <key>offset</key>
+        <string>{-36,12}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{232,133}}</string>
+        <key>sourceSize</key>
+        <string>{232,133}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11079_3.png</string>
+      <key>size</key>
+      <string>{385,451}</string>
+      <key>textureFileName</key>
+      <string>sfx_11079_3.png</string>
+    </dict>
+  </dict>
+</plist>

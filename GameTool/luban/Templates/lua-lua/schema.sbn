@@ -1,0 +1,133 @@
+local tableConcat = table.concat
+local ipairs = ipairs
+local pairs = pairs
+
+local enums =
+{
+    {{~ for c in __enums ~}}
+    ---@class {{c.full_name}} {{-if c.comment != ''}} @{{escape_comment c.comment}}{{end}}
+    {{c.name}} = { {{ for item in c.items }}
+    -- * {{item.alias}} {{-if item.comment != item.alias}} {{escape_comment item.comment}}{{end}}
+    {{item.name}}={{item.int_value}},{{end}}
+    };
+
+    ---@class {{c.full_name}}_Desc
+    {{c.name}}_Desc = { {{ for item in c.items }}
+    [{{item.int_value}}]={ "{{item.name}}", "{{escape_comment item.comment}}" },{{end}}
+    };
+
+    {{~end~}}
+}
+
+---@class {{__namespace}}.LubanBean
+local beans = {}
+{{~ for bean in __beans ~}}
+
+---@return {{bean.full_name}}
+local create{{bean.name}} = function()
+    ---@class {{bean.full_name}} {{if bean.parent_def_type}}:{{bean.parent}} {{end}} {{-if bean.comment != ''}} @{{escape_comment bean.comment}}{{end}}
+    {{~ for field in bean.export_fields~}}
+    ---@field public {{field.name}} {{comment_type field.ctype}} {{-if field.comment != ''}} @{{escape_comment field.comment}}{{end}}
+    {{~end~}}
+    return {
+        {{~ for field in bean.export_fields~}}
+        {{field.name}} = {{-if (comment_type field.ctype) == 'integer'}}0{{-else if (comment_type field.ctype) == 'number'}}0{{-else if (comment_type field.ctype) == 'string'}}""{{-else if (comment_type field.ctype) == 'boolean'}}false{{-else}}{}{{end}},
+        {{~end~}}
+    }
+end
+beans.create{{bean.name}} = create{{bean.name}}
+{{~end~}}
+
+local tables =
+{
+{{~for table in __tables ~}}
+    {{~if table.is_map_table ~}}
+    ["{{table.name}}"] = { name='{{table.name}}', file='{{table.output_data_file}}', mode='map', index='{{table.index}}', value_type='{{table.value_ttype.def_bean.full_name}}' },
+    {{~else if table.is_list_table ~}}
+    ["{{table.name}}"] = { name='{{table.name}}', file='{{table.output_data_file}}', mode='list', index='{{table.index}}', value_type='{{table.value_ttype.def_bean.full_name}}' },
+    {{~else~}}
+    ["{{table.name}}"] = { name='{{table.name}}', file='{{table.output_data_file}}', mode='one', value_type='{{table.value_ttype.def_bean.full_name}}'},
+    {{~end~}}
+{{~end~}}
+}
+
+-- * 组合key
+---@param tKey table 可变参数
+---@return string
+local function combineKey(tKey)
+    return "key_"..tableConcat(tKey, "_")
+end
+
+-- * 解析表格
+local function parseTable(t, keys, srcDatas)
+    t.AllTables = {}
+    t.AllKeys = {}
+
+    for _, data in pairs(srcDatas) do
+        local tKey = {}
+        for _, k in ipairs(keys) do
+            tKey[#tKey + 1] = data[k]
+        end
+        local key = combineKey(tKey)
+        t.AllKeys[key] = #t.AllTables + 1
+        t.AllTables[t.AllKeys[key]] = data
+    end
+end
+
+-- * 创建全部表格
+---@param require function
+---@return table 全部数据表格
+local function createAllTables(require)
+    ---@class {{__namespace}}.AllTables
+    local allTables = {}
+
+    {{~for table in __tables ~}}
+    {{~if table.is_singleton_table ~}}
+    ---@class {{table.value_ttype.def_bean.name}}
+    {{~else~}}
+    local {{table.name}} = function()
+        ---@class {{table.name}}
+        ---@field public AllTables {{table.value_ttype.def_bean.full_name}}[] 全部配置
+        ---@field public AllKeys table<string, integer> 全部Key
+        local t = {
+            AllTables = {},
+            AllKeys = {},
+        }
+        parseTable(t,
+            {
+                {{~ for index in table.index_list~}}
+                "{{index.index_field.name}}",
+                {{~end~}}
+            },
+            require("{{table.output_data_file}}.lua")
+        )
+
+        {{~ for index in table.index_list~}}
+        ---@param {{index.index_field.name}} {{comment_type index.index_field.ctype}} {{-if index.index_field.comment != ''}} @{{escape_comment index.index_field.comment}}{{end}}
+        {{~end~}}
+        ---@return {{table.value_ttype.def_bean.full_name}}?
+        function t:GetData({{~ for index in table.index_list~}}{{index.index_field.name}}, {{~end~}}...)
+            local tKey = {
+                {{~ for index in table.index_list~}}
+                {{index.index_field.name}},
+                {{~end~}}
+            }
+            local key = combineKey(tKey)
+
+            if self.AllKeys[key] == nil then
+                return nil
+            end
+
+            return self.AllTables[self.AllKeys[key]]
+        end
+
+        return t
+    end
+    allTables.{{table.name}} = {{table.name}}()
+    {{~end~}}
+    {{~end~}}
+
+    return allTables
+end
+
+return { enums = enums, beans = beans, tables = tables, createAllTables = createAllTables }

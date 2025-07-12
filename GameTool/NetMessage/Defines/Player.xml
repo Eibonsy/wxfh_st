@@ -1,0 +1,7 @@
+<module name="NetMessage">
+    <bean name="Player_LoginInfo"  comment="玩家登录信息">
+        <var name="DetailState"         type="int" comment="玩家详细状态，见 EPlayerDetailState"/>
+        <var name="MatchMode"           type="int" comment="匹配模式，见 EMatchMode"/>
+        <var name="MatchStartTime"      type="int" comment="匹配开始时间(GTM)"/>
+    </bean>
+</module>

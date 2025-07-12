@@ -1,0 +1,26 @@
+{
+    "#Scene#Panel_1#Panel_btnList#Button_11#Text_name": {
+        "text": "兽\r\n魂",
+        "width": 14,
+        "offsetx": 0,
+        "offsety": 0,
+        "height": 36,
+        "color": "#807256",
+        "visible": 1,
+        "fontSize": "13"
+    },
+    "#Scene#Panel_1#Panel_btnList": {
+        "offsety": 0,
+        "height": 340,
+        "width": 24,
+        "visible": 1,
+        "offsetx": 0
+    },
+    "#Scene#Panel_1#Text_Name": {
+        "offsety": 0,
+        "height": 22,
+        "width": 36,
+        "visible": 1,
+        "offsetx": 0
+    }
+}

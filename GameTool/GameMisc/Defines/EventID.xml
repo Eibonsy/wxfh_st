@@ -1,0 +1,22 @@
+<module name="">
+    <enum name="EEventIDC" unique="true" comment="客户端事件ID">
+        <var name="Invalid"             value="0"   comment="无效"/>
+        <!-- 匹配相关事件 1000-1999 -->
+        <var name="Match_Status_Refresh"            value="1000"    comment="匹配状态刷新"/>
+        <var name="Match_Success"                                   comment="匹配成功"/>
+    </enum>
+
+    <enum name="EEventIDS" unique="true" comment="服务器事件ID">
+        <var name="Invalid"             value="0"   comment ="无效"/>
+
+        <!-- 玩家相关事件 1000-1999 -->
+        <var name="Player_Login"                     value="1000"       comment="玩家登录"/>
+        <var name="Player_CrossDayLogin"                                comment="玩家跨天登录"/>
+        <var name="Player_DailyFirstLogin"                              comment="玩家每天首次登录"/>
+        <var name="Player_Die"                                          comment="玩家死亡"/>
+
+        <!-- 地图相关事件 2000-2999 -->
+        <var name="Map_Enter"                       value="2000"       comment="玩家进入地图"/>
+        <var name="Map_Leave"                       value="2001"       comment="玩家离开地图"/>
+    </enum>
+</module>

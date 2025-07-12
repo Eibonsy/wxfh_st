@@ -1,0 +1,7 @@
+<module name="">
+    <enum name="EMatchMode" unique="true" comment="匹配模式">
+        <var name="None"        value="0"       alias="无匹配模式"/>
+        <var name="Normal"      value="1"       alias="普通模式"/>
+        <var name="Rank"        value="2"       alias="排位模式"/>
+    </enum>
+</module>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11061_5_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{998,0},{367,474}}</string>
+        <key>offset</key>
+        <string>{-143,298}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{367,474}}</string>
+        <key>sourceSize</key>
+        <string>{367,474}</string>
+      </dict>
+      <key>sfx_11061_5_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{414,558},{457,499}}</string>
+        <key>offset</key>
+        <string>{-200,350}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{457,499}}</string>
+        <key>sourceSize</key>
+        <string>{457,499}</string>
+      </dict>
+      <key>sfx_11061_5_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{414,0},{582,556}}</string>
+        <key>offset</key>
+        <string>{-259,407}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{582,556}}</string>
+        <key>sourceSize</key>
+        <string>{582,556}</string>
+      </dict>
+      <key>sfx_11061_5_0004.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{617,412}}</string>
+        <key>offset</key>
+        <string>{-224,411}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{617,412}}</string>
+        <key>sourceSize</key>
+        <string>{617,412}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11061_5_1.png</string>
+      <key>size</key>
+      <string>{1480,1026}</string>
+      <key>textureFileName</key>
+      <string>sfx_11061_5_1.png</string>
+    </dict>
+  </dict>
+</plist>

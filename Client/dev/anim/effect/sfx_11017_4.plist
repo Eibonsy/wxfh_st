@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11017_4_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{430,279},{186,123}}</string>
+        <key>offset</key>
+        <string>{-134,86}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{186,123}}</string>
+        <key>sourceSize</key>
+        <string>{186,123}</string>
+      </dict>
+      <key>sfx_11017_4_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{346,176}}</string>
+        <key>offset</key>
+        <string>{-108,133}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{346,176}}</string>
+        <key>sourceSize</key>
+        <string>{346,176}</string>
+      </dict>
+      <key>sfx_11017_4_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{178,0},{300,226}}</string>
+        <key>offset</key>
+        <string>{-117,222}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{300,226}}</string>
+        <key>sourceSize</key>
+        <string>{300,226}</string>
+      </dict>
+      <key>sfx_11017_4_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{178,228},{250,272}}</string>
+        <key>offset</key>
+        <string>{-166,171}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{250,272}}</string>
+        <key>sourceSize</key>
+        <string>{250,272}</string>
+      </dict>
+      <key>sfx_11017_4_0004.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{480,0},{277,155}}</string>
+        <key>offset</key>
+        <string>{-111,69}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{277,155}}</string>
+        <key>sourceSize</key>
+        <string>{277,155}</string>
+      </dict>
+      <key>sfx_11017_4_0005.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,348},{164,111}}</string>
+        <key>offset</key>
+        <string>{21,49}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{164,111}}</string>
+        <key>sourceSize</key>
+        <string>{164,111}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11017_4.png</string>
+      <key>size</key>
+      <string>{640,512}</string>
+      <key>textureFileName</key>
+      <string>sfx_11017_4.png</string>
+    </dict>
+  </dict>
+</plist>

@@ -1,0 +1,33 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>monster_0802_0_0_0_0000.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{254,254}}</string>
+                <key>offset</key>
+                <string>{-53,165}</string>
+                <key>rotated</key>
+                <false />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{254,254}}</string>
+                <key>sourceSize</key>
+                <string>{256,254}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>monster_0802_0_0.png</string>
+            <key>size</key>
+            <string>{254,254}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:cb8876de15a3d9811ec40003f30f685e:e118158638c3d54b2fc43dc6d0d84569:f1835c1d184f5a36d276f89d866f4d34$</string>
+            <key>textureFileName</key>
+            <string>monster_0802_0_0.png</string>
+        </dict>
+    </dict>
+</plist>

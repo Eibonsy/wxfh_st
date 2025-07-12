@@ -1,0 +1,5 @@
+[@main]
+#if
+#act
+calllua ditunpc @jk_show
+

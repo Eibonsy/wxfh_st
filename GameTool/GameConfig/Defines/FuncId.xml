@@ -1,0 +1,6 @@
+<module name="">
+    <enum name="EFuncId" unique="true" comment="功能Id">
+        <var name="Invalid"                     value="0"       alias="无效"/>
+        <var name="Match"                       value="1"       alias="匹配"/>
+    </enum>
+</module>

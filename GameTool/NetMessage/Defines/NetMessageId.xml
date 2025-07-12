@@ -1,0 +1,19 @@
+<module name="">
+    <enum name="ENetMessageId" unique="true" comment="网络消息ID">
+        <!-- 玩家 10000 -->
+        <var name="Player_Login"                value="10000"   alias="玩家登录"            comment="参数 arg1 错误码 msgData Player_LoginInfo"/>
+
+        <!-- 匹配 50000-50999 -->
+        <var name="MATCH_MatchReq"              value="50000"   alias="请求匹配"            comment="参数 arg1 匹配模式 arg2 匹配开始时间"/>
+        <var name="MATCH_MatchRsp"                              alias="请求匹配回复"        comment="参数 arg1 错误码"/>
+        <var name="MATCH_CancelMatchReq"                        alias="请求取消匹配"        comment="参数 无"/>
+        <var name="MATCH_CancelMatchRsp"                        alias="请求取消匹配回复"    comment="参数 arg1 错误码"/>
+        <var name="MATCH_MatchSuccessNtf"                       alias="匹配成功通知"        comment="参数 无"/>
+
+        <!-- 梦境 51000-51999 -->
+        <var name="DREAM_EnterDreamReq"            value="51000"   alias="请求进入梦境"        comment="参数 arg1 梦境ID"/>
+        <var name="DREAM_EnterDreamRsp"                            alias="请求进入梦境回复"    comment="参数 arg1 错误码"/>
+        <var name="DREAM_LeaveDreamReq"                            alias="请求离开梦境"        comment="参数 无"/>
+        <var name="DREAM_LeaveDreamRsp"                            alias="请求离开梦境回复"    comment="参数 arg1 错误码"/>
+    </enum>
+</module>

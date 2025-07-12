@@ -1,0 +1,4 @@
+[@main]
+#if
+#act
+calllua guanliwenjian @guanli_show4

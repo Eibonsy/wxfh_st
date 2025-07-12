@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11014_4_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{313,256},{31,36}}</string>
+        <key>offset</key>
+        <string>{42,87}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{31,36}}</string>
+        <key>sourceSize</key>
+        <string>{31,36}</string>
+      </dict>
+      <key>sfx_11014_4_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{349,154}}</string>
+        <key>offset</key>
+        <string>{-111,53}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{349,154}}</string>
+        <key>sourceSize</key>
+        <string>{349,154}</string>
+      </dict>
+      <key>sfx_11014_4_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{156,0},{254,221}}</string>
+        <key>offset</key>
+        <string>{-152,151}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{254,221}}</string>
+        <key>sourceSize</key>
+        <string>{254,221}</string>
+      </dict>
+      <key>sfx_11014_4_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{156,256},{135,155}}</string>
+        <key>offset</key>
+        <string>{-120,153}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{135,155}}</string>
+        <key>sourceSize</key>
+        <string>{135,155}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11014_4.png</string>
+      <key>size</key>
+      <string>{386,604}</string>
+      <key>textureFileName</key>
+      <string>sfx_11014_4.png</string>
+    </dict>
+  </dict>
+</plist>

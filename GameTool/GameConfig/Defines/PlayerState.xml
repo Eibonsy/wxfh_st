@@ -1,0 +1,20 @@
+<module name="">
+    <enum name="EPlayerState" unique="true" comment="玩家状态">
+        <var name="Normal"              value="0"       alias="常规状态"/>
+        <var name="Match"               value="1"       alias="匹配状态"/>
+        <var name="Battle"              value="2"       alias="战场状态"/>
+    </enum>
+
+    <enum name="EPlayerDetailState" unique="true" comment="玩家详细状态，除100，向下取整则为 EPlayerState 的值">
+        <var name="Unknown"             value="-1"       alias="未知"/>
+        <!-- EPlayerState.Normal 包含 0-99 -->
+        <var name="Normal"              value="0"       alias="常规状态"/>
+        <!-- EPlayerState.Matching 包含 100-199 -->
+        <var name="Matching"            value="100"     alias="匹配中"/>
+        <var name="Match_Success"       value="101"     alias="匹配成功等待进入"/>
+        <!-- EPlayerState.Battle 包含 200-299 -->
+        <var name="Battle_Fight"        value="200"     alias="战斗中"/>
+        <var name="Battle_Dead"         value="201"     alias="战斗死亡，未结算"/>
+        <var name="Battle_Settlement"   value="202"     alias="战斗已结算"/>
+    </enum>
+</module>

@@ -1,0 +1,9 @@
+[@main]
+<Img|x=0.0|y=0.0|width=490|height=220|bg=1|esc=1|scale9r=30|scale9t=30|scale9b=30|move=0|reset=1|loadDelay=1|scale9l=30|img=zhangheng/176.png|show=0>
+<Button|x=490.0|y=0.0|nimg=public/1900000510.png|pimg=public/1900000511.png|link=@exit>
+<Img|x=127.0|y=28.0|img=zhangheng/177.png|esc=0>
+<Img|x=296.0|y=27.0|img=zhangheng/178.png|esc=0>
+<RText|ax=0.5|ay=0.5|x=246.0|y=35.5|color=251|size=18|text=监狱长>
+<RText|x=22.0|y=70.0|color=161|size=18|text=您使用非法外挂，已被封禁！！！>
+<RText|x=22.0|y=100.0|color=161|size=18|text=您使用非法外挂，已被封禁！！！>
+<RText|x=22.0|y=130.0|color=161|size=18|text=您使用非法外挂，已被封禁！！！>

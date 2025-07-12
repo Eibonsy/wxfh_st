@@ -1,0 +1,69 @@
+;SEC：按秒运行
+;MIN：按分运行
+;HOUR：按小时运行
+;DAY：按天运行
+;RunOnDay：按每天什么时候运行
+;RUNONWEEK：按星期几及时间运行
+;————————————————————————————————————————————————————
+;公告
+#AutoRun NPC MIN 30 @auto_gonggao
+#AutoRun NPC MIN 40 @auto_gonggao1
+;卧龙山庄
+#AutoRun NPC RUNONDAY 19:30:01 @auto_wolongshanzhuang
+#AutoRun NPC RUNONDAY 21:00:01 @auto_wolongjiesu
+
+;清理数据
+#AutoRun NPC RUNONDAY 00:00:01 @auto_newday
+#AutoRun NPC RUNONDAY 21:00:20 @gongchengstart
+
+#AutoRun NPC RUNONDAY 23:59:01 @auto_qxt_fajiang
+#AutoRun NPC RUNONDAY 00:01:01 @auto_qxt_kaijiang
+
+#AutoRun NPC RUNONDAY 05:59:01 @auto_qxt_fajiang
+#AutoRun NPC RUNONDAY 06:01:01 @auto_qxt_kaijiang
+
+#AutoRun NPC RUNONDAY 11:59:01 @auto_qxt_fajiang
+#AutoRun NPC RUNONDAY 12:01:01 @auto_qxt_kaijiang
+
+#AutoRun NPC RUNONDAY 17:59:01 @auto_qxt_fajiang
+#AutoRun NPC RUNONDAY 18:01:01 @auto_qxt_kaijiang
+;无间炼狱洞口特效
+#AutoRun NPC RUNONDAY 13:00:01 @auto_wjly_kaiqi
+#AutoRun NPC RUNONDAY 23:00:01 @auto_wjly_kaiqi
+;谜之幻境切换属性
+#AutoRun NPC RUNONDAY 00:00:01 @auto_mzhj_qiehuan
+#AutoRun NPC RUNONDAY 06:00:01 @auto_mzhj_qiehuan
+#AutoRun NPC RUNONDAY 12:00:01 @auto_mzhj_qiehuan
+#AutoRun NPC RUNONDAY 18:00:01 @auto_mzhj_qiehuan
+
+;骰王清理
+#AutoRun NPC RUNONDAY 00:10:01 @auto_touwangqingli
+#AutoRun NPC RUNONDAY 03:10:01 @auto_touwangqingli
+#AutoRun NPC RUNONDAY 06:10:01 @auto_touwangqingli
+#AutoRun NPC RUNONDAY 09:10:01 @auto_touwangqingli
+#AutoRun NPC RUNONDAY 12:10:01 @auto_touwangqingli
+#AutoRun NPC RUNONDAY 15:10:01 @auto_touwangqingli
+#AutoRun NPC RUNONDAY 18:10:01 @auto_touwangqingli
+#AutoRun NPC RUNONDAY 21:10:01 @auto_touwangqingli
+
+;新区活动
+#AutoRun NPC SEC 1 @auto_xinquhuodong
+
+;怪物攻城
+#AutoRun NPC RUNONDAY 10:00:01 @auto_guaiwugongcheng
+#AutoRun NPC RUNONDAY 14:00:01 @auto_guaiwugongcheng
+#AutoRun NPC RUNONDAY 18:00:01 @auto_guaiwugongcheng
+
+;泉水活动
+#AutoRun NPC RUNONDAY 01:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 03:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 05:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 07:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 09:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 11:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 13:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 15:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 17:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 19:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 21:40:03 @auto_quanshuihuodong
+#AutoRun NPC RUNONDAY 23:40:03 @auto_quanshuihuodong

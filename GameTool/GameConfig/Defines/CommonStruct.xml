@@ -1,0 +1,6 @@
+<module name="">
+    <bean name="Position" sep="|">
+        <var name="X" type="int"/>
+        <var name="Y" type="int"/>
+    </bean>
+</module>

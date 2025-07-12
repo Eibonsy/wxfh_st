@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11010_4_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{113,0},{108,406}}</string>
+        <key>offset</key>
+        <string>{-40,175}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{108,406}}</string>
+        <key>sourceSize</key>
+        <string>{108,406}</string>
+      </dict>
+      <key>sfx_11010_4_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{223,0},{119,405}}</string>
+        <key>offset</key>
+        <string>{-30,175}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{119,405}}</string>
+        <key>sourceSize</key>
+        <string>{119,405}</string>
+      </dict>
+      <key>sfx_11010_4_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{461,0},{119,401}}</string>
+        <key>offset</key>
+        <string>{-47,175}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{119,401}}</string>
+        <key>sourceSize</key>
+        <string>{119,401}</string>
+      </dict>
+      <key>sfx_11010_4_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{344,0},{115,404}}</string>
+        <key>offset</key>
+        <string>{-56,175}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{115,404}}</string>
+        <key>sourceSize</key>
+        <string>{115,404}</string>
+      </dict>
+      <key>sfx_11010_4_0004.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{111,408}}</string>
+        <key>offset</key>
+        <string>{-53,175}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{111,408}}</string>
+        <key>sourceSize</key>
+        <string>{111,408}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11010_4.png</string>
+      <key>size</key>
+      <string>{630,514}</string>
+      <key>textureFileName</key>
+      <string>sfx_11010_4.png</string>
+    </dict>
+  </dict>
+</plist>

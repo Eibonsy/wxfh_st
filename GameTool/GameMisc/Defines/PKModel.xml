@@ -1,0 +1,12 @@
+<module name="">
+    <enum name="EPKModelType" unique="true" comment="PK模型类型">
+        <var name="All"             value="0"   comment="全体模式"/>
+        <var name="Peace"           value="1"   comment="和平模式"/>
+        <var name="Couple"          value="2"   comment="夫妻模式"/>
+        <var name="Master"          value="3"   comment="师徒模式"/>
+        <var name="Team"            value="4"   comment="组队模式"/>
+        <var name="Guild"           value="5"   comment="行会模式"/>
+        <var name="RedName"         value="6"   comment="红名模式"/>
+        <var name="Country"         value="7"   comment="国家模式"/>
+    </enum>
+</module>

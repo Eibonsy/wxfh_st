@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11081_2_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{100,47}}</string>
+        <key>offset</key>
+        <string>{-22,5}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{100,47}}</string>
+        <key>sourceSize</key>
+        <string>{100,47}</string>
+      </dict>
+      <key>sfx_11081_2_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{98,0},{96,49}}</string>
+        <key>offset</key>
+        <string>{-21,6}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{96,49}}</string>
+        <key>sourceSize</key>
+        <string>{96,49}</string>
+      </dict>
+      <key>sfx_11081_2_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{49,0},{100,47}}</string>
+        <key>offset</key>
+        <string>{-21,5}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{100,47}}</string>
+        <key>sourceSize</key>
+        <string>{100,47}</string>
+      </dict>
+      <key>sfx_11081_2_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{98,51},{96,45}}</string>
+        <key>offset</key>
+        <string>{-21,4}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{96,45}}</string>
+        <key>sourceSize</key>
+        <string>{96,45}</string>
+      </dict>
+      <key>sfx_11081_2_0004.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,102},{100,49}}</string>
+        <key>offset</key>
+        <string>{-21,6}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{100,49}}</string>
+        <key>sourceSize</key>
+        <string>{100,49}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11081_2.png</string>
+      <key>size</key>
+      <string>{196,224}</string>
+      <key>textureFileName</key>
+      <string>sfx_11081_2.png</string>
+    </dict>
+  </dict>
+</plist>

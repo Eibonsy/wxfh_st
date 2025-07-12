@@ -1,0 +1,63 @@
+<module name="">
+    <enum name="ESkillTriggerStage" unique="true" comment="触发阶段">
+        <var name="Invalid"                         value="0"       alias="无效"                    comment="无效阶段"/>
+        <!-- 玩家       1-99 -->
+        <var name="UseBefore"                       value="1"       alias="使用技能前"              comment="对应996函数 beginmagic, magselffunc 在它之前"/>
+        <var name="Use"                             value="2"       alias="自身使用技能"            comment="对应996函数 magselffunc"/>
+        <var name="UseTarget"                       value="3"       alias="对目标人物使用技能"      comment="对应996函数 magtagfunc"/>
+        <var name="UseMonster"                      value="4"       alias="对目标怪物使用技能"      comment="对应996函数 magmonfunc"/>
+        <var name="PushUseBefore"                   value="5"       alias="推动技能使用前"          comment="对应996函数 canpush"/>
+        <var name="CustomDamageBefore"              value="6"       alias="自定义技能处理伤害前"    comment="对应996函数 custommagicdamage"/>
+        <var name="CritDamage"                      value="7"       alias="暴击伤害"                comment="对应996函数 crittrigger"/>
+        <var name="ReboundHurt"                     value="8"       alias="伤害反弹伤害"              comment="对应996函数 reboundhurt"/>
+        <var name="DamageBefore"                    value="9"       alias="伤害前"                    comment="对应996函数 attackdamage"/>
+        <var name="PhysicalDamageAfter"             value="10"      alias="物理伤害后"                    comment="对应996函数 attack"/>
+        <var name="MagicDamageAfter"                value="11"      alias="魔法伤害后"                    comment="对应996函数 magicattack"/>
+        <var name="RecDamageBefore"                 value="12"      alias="受到伤害前"              comment="对应996函数 struckdamage"/>
+        <var name="RecPhysicalDamageAfter"          value="13"      alias="受到物理伤害后"        comment="对应996函数 struck "/>
+        <var name="RecMagicDamageAfter"             value="14"      alias="受到魔法伤害后"        comment="对应996函数 magicstruck "/>
+
+        <!-- 宝宝       100-199 -->
+        <var name="BBDamageBefore"                  value="100"      alias="宝宝伤害前"                comment="对应996函数 attackdamagebb"/>
+        <var name="BBPhysicalDamageAfter"           value="101"      alias="宝宝物理伤害后"              comment="对应996函数 attackpet"/>
+        <var name="BBMagicDamageAfter"              value="102"      alias="宝宝魔法伤害后"              comment="对应996函数 magicattackpet"/>
+        <var name="BBRecDamageBefore"               value="103"      alias="宝宝受到伤害前"          comment="对应996函数 struckdamagebb "/>
+        <var name="BBRecPhysicalDamageAfter"        value="104"      alias="宝宝受到物理伤害后"      comment="对应996函数 struckpet "/>
+        <var name="BBRecMagicDamageAfter"           value="105"      alias="宝宝受到魔法伤害后"      comment="对应996函数 magicstruckpet "/>
+        <var name="BBPushUseBefore"                 value="106"      alias="宝宝推动技能使用前"      comment="对应996函数 bbcanpush"/>
+
+        <!-- 英雄       200-299 -->
+        <var name="HeroDamageBefore"                value="200"      alias="英雄伤害前"                  comment="对应996函数 heroattackdamage"/>
+        <var name="HeroPhysicalDamageAfter"         value="201"      alias="英雄物理伤害后"            comment="对应996函数 heroattack"/>
+        <var name="HeroMagicDamageAfter"            value="202"      alias="英雄魔法伤害后"            comment="对应996函数 heromagicattack"/>
+        <var name="HeroRecDamageBefore"             value="203"      alias="英雄受到伤害前"          comment="对应996函数 herostruckdamage "/>
+        <var name="HeroRecPhysicalDamageAfter"      value="204"      alias="英雄受到物理伤害后"      comment="对应996函数 herostruck "/>
+        <var name="HeroRecMagicDamageAfter"         value="205"      alias="英雄受到魔法伤害后"      comment="对应996函数 heromagicstruck "/>
+        <var name="HeroUseBefore"                   value="206"      alias="英雄使用技能前"          comment="对应996函数 herobeginmagic"/>
+        <var name="HeroPushUseBefore"               value="207"      alias="英雄推动技能使用前"      comment="对应996函数 herocanpush"/>
+
+        <!-- 英雄宝宝   300-399 -->
+        <var name="HeroBBDamageBefore"              value="300"      alias="英雄宝宝伤害前"              comment="对应996函数 heroattackdamagebb"/>
+        <var name="HeroBBPhysicalDamageAfter"       value="301"      alias="英雄宝宝物理伤害后"      comment="对应996函数 heroattackpet"/>
+        <var name="HeroBBMagicDamageAfter"          value="302"      alias="英雄宝宝魔法伤害后"      comment="对应996函数 heromagicattackpet"/>
+        <var name="HeroBBRecDamageBefore"           value="303"      alias="英雄宝宝受到伤害前"      comment="对应996函数 herostruckdamagebb "/>
+        <var name="HeroBBRecPhysicalDamageAfter"    value="304"      alias="英雄宝宝受到物理伤害后"  comment="对应996函数 herostruckpet "/>
+        <var name="HeroBBRecMagicDamageAfter"       value="305"      alias="英雄宝宝受到魔法伤害后"  comment="对应996函数 heromagicstruckpet  "/>
+        <var name="HeroBBPushUseBefore"             value="306"      alias="英雄宝宝推动技能使用前"  comment="对应996函数 herobbcanpush"/>
+
+        <!-- 宠物       400-499 -->
+        <var name="PetPushUseBefore"                value="400"      alias="宠物推动技能使用前"      comment="对应996函数 petcanpush"/>
+        <var name="PetAttack"                       value="401"      alias="宠物攻击"                comment="对应996函数 attackbypet"/>
+        <var name="PetDamageBefore"                 value="402"      alias="宠物攻击伤害前"            comment="对应996函数 attackdamagepet"/>
+        <var name="PetRecDamageBefore"              value="403"      alias="宠物被攻击前"            comment="对应996函数 struckdamagepet"/>
+        <var name="PetRecPhysicalDamageAfter"       value="404"      alias="宠物被物理攻击"          comment="对应996函数 struckofpet"/>
+        <var name="PetRecMagicDamageAfter"          value="405"      alias="宠物被魔法攻击"          comment="对应996函数 magicstruckofpet"/>
+    </enum>
+
+    <!-- 效果相关 -->
+    <enum name="ESkillTriggerEffect" unique="true" comment="触发效果">
+        <var name="None"                value="0"       alias="无效果"        comment="无效果"/>
+        <var name="ReplaceSkill"        value="1"       alias="替换技能"      comment="参数 替换后的技能Id"/>
+        <var name="UseSkill"            value="2"       alias="使用技能"      comment="参数 使用的技能Id"/>
+    </enum>
+</module>

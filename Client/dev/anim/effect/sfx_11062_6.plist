@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11062_6_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{379,0},{378,375}}</string>
+        <key>offset</key>
+        <string>{-84,179}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{378,375}}</string>
+        <key>sourceSize</key>
+        <string>{378,375}</string>
+      </dict>
+      <key>sfx_11062_6_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{380,380},{376,377}}</string>
+        <key>offset</key>
+        <string>{-82,179}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{376,377}}</string>
+        <key>sourceSize</key>
+        <string>{376,377}</string>
+      </dict>
+      <key>sfx_11062_6_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,382},{379,378}}</string>
+        <key>offset</key>
+        <string>{-85,179}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{379,378}}</string>
+        <key>sourceSize</key>
+        <string>{379,378}</string>
+      </dict>
+      <key>sfx_11062_6_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{380,377}}</string>
+        <key>offset</key>
+        <string>{-86,179}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{380,377}}</string>
+        <key>sourceSize</key>
+        <string>{380,377}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11062_6.png</string>
+      <key>size</key>
+      <string>{768,768}</string>
+      <key>textureFileName</key>
+      <string>sfx_11062_6.png</string>
+    </dict>
+  </dict>
+</plist>

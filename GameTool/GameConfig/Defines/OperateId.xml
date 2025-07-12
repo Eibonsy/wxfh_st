@@ -1,0 +1,9 @@
+<module name="">
+    <enum name="EOperateId" unique="true" comment="操作Id">
+        <var name="Invalid"                     value="0"       alias="无效"/>
+
+        <!-- 匹配相关的 1000-1999 -->
+        <var name="Match_ReqMatch"              value="1000"    alias="请求匹配"/>
+        <var name="Match_CancelMatch"           value="1001"    alias="取消匹配"/>
+    </enum>
+</module>

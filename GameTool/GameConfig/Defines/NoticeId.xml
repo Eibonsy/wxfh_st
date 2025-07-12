@@ -1,0 +1,17 @@
+<module name="">
+    <enum name="ENoticeId" unique="true" comment="提示Id">
+        <var name="Success"                     value="0"       alias="成功"/>
+        <var name="Error_Unknown"               value="1"       alias="未知错误"/>
+        <var name="Error_InvalidPlayer"         value="2"       alias="无效玩家"/>
+        <var name="Error_JsonParseError"        value="3"       alias="JSON解析错误"/>
+
+        <!-- 匹配相关 10000 - 19999 -->
+        <var name="Match_Success"               value="10000"   alias="匹配成功"/>
+        <var name="Match_Failed"                value="10001"   alias="匹配失败"/>
+        <var name="Match_AlreadySuccess"        value="10002"   alias="已匹配成功"/>
+        <var name="Match_Already"               value="10003"   alias="已在匹配队列"/>
+        <var name="Match_NoInList"              value="10004"   alias="不在匹配队列"/>
+        <var name="Match_ModeNotExist"          value="10005"   alias="匹配模式不存在"/>
+        <var name="Match_CancelSuccess"         value="10006"   alias="取消匹配成功"/>
+    </enum>
+</module>

@@ -1,0 +1,11 @@
+[@刷小怪]
+#if
+#act
+;sendmsg 0 <$GLOBAL(S怪物攻城地图)>,<$GLOBAL(S怪物攻城x)>,<$GLOBAL(S怪物攻城y)>
+MISSION <$GLOBAL(S怪物攻城地图)> <$GLOBAL(S怪物攻城x)> <$GLOBAL(S怪物攻城y)>
+PARAM1 <$GLOBAL(S怪物攻城x)>
+PARAM2 <$GLOBAL(S怪物攻城y)>
+PARAM3 <$GLOBAL(S怪物攻城数量)>
+PARAM4 <$GLOBAL(S怪物攻城范围)>
+PARAM8 <$GLOBAL(S怪物攻城颜色)>
+MOBPLACE <$GLOBAL(S怪物攻城名字)>

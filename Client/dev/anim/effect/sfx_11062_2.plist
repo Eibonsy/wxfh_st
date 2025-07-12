@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11062_2_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{532,363}}</string>
+        <key>offset</key>
+        <string>{-272,161}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{532,363}}</string>
+        <key>sourceSize</key>
+        <string>{532,363}</string>
+      </dict>
+      <key>sfx_11062_2_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,534},{532,362}}</string>
+        <key>offset</key>
+        <string>{-272,161}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{532,362}}</string>
+        <key>sourceSize</key>
+        <string>{532,362}</string>
+      </dict>
+      <key>sfx_11062_2_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{364,534},{532,360}}</string>
+        <key>offset</key>
+        <string>{-272,161}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{532,360}}</string>
+        <key>sourceSize</key>
+        <string>{532,360}</string>
+      </dict>
+      <key>sfx_11062_2_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{365,0},{532,388}}</string>
+        <key>offset</key>
+        <string>{-272,161}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{532,388}}</string>
+        <key>sourceSize</key>
+        <string>{532,388}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11062_2.png</string>
+      <key>size</key>
+      <string>{899,1451}</string>
+      <key>textureFileName</key>
+      <string>sfx_11062_2.png</string>
+    </dict>
+  </dict>
+</plist>

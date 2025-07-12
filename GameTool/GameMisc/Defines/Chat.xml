@@ -1,0 +1,9 @@
+<module name="">
+    <enum name="EChatSendType" unique="true" comment="聊天发送类型">
+        <var name="Owner"       value="1"   comment="发送给自己"/>
+        <var name="All"         value="2"   comment="发送给全服"/>
+        <var name="Guild"       value="3"   comment="发送给行会"/>
+        <var name="Map"         value="4"   comment="发送给地图"/>
+        <var name="Team"        value="5"   comment="发送给队伍"/>
+    </enum>
+</module>

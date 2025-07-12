@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>monster_30037_0_7_7_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{399,0},{284,374}}</string>
+        <key>offset</key>
+        <string>{-128,272}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{284,374}}</string>
+        <key>sourceSize</key>
+        <string>{284,374}</string>
+      </dict>
+      <key>monster_30037_0_7_7_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,294},{301,380}}</string>
+        <key>offset</key>
+        <string>{-136,277}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{301,380}}</string>
+        <key>sourceSize</key>
+        <string>{301,380}</string>
+      </dict>
+      <key>monster_30037_0_7_7_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{303,294},{297,376}}</string>
+        <key>offset</key>
+        <string>{-141,280}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{297,376}}</string>
+        <key>sourceSize</key>
+        <string>{297,376}</string>
+      </dict>
+      <key>monster_30037_0_7_7_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{292,397}}</string>
+        <key>offset</key>
+        <string>{-136,297}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{292,397}}</string>
+        <key>sourceSize</key>
+        <string>{292,397}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>monster_30037_0_7_7.png</string>
+      <key>size</key>
+      <string>{924,770}</string>
+      <key>textureFileName</key>
+      <string>monster_30037_0_7_7.png</string>
+    </dict>
+  </dict>
+</plist>

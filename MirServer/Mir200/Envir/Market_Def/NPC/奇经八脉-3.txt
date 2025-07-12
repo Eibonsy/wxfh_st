@@ -1,0 +1,17 @@
+[@main]
+#if
+#act
+; give 一级金针 999
+; give 二级金针 999
+; give 三级金针 999
+; give 四级金针 999
+; give 五级金针 999
+; give 六级金针 999
+; give 七级金针 999
+; give 八级金针 999
+; give 九级金针 999
+; give 十级金针 999
+; give 疏筋活络丸 999
+; give 金条 999
+calllua qijingbamai @show
+

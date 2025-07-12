@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>sfx_11014_3_0000.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{155,164},{91,46}}</string>
+        <key>offset</key>
+        <string>{-79,77}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{91,46}}</string>
+        <key>sourceSize</key>
+        <string>{91,46}</string>
+      </dict>
+      <key>sfx_11014_3_0001.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{155,0},{212,162}}</string>
+        <key>offset</key>
+        <string>{32,88}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{212,162}}</string>
+        <key>sourceSize</key>
+        <string>{212,162}</string>
+      </dict>
+      <key>sfx_11014_3_0002.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,0},{271,153}}</string>
+        <key>offset</key>
+        <string>{-116,87}</string>
+        <key>rotated</key>
+        <true />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{271,153}}</string>
+        <key>sourceSize</key>
+        <string>{271,153}</string>
+      </dict>
+      <key>sfx_11014_3_0003.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{0,273},{184,107}}</string>
+        <key>offset</key>
+        <string>{-109,97}</string>
+        <key>rotated</key>
+        <false />
+        <key>sourceColorRect</key>
+        <string>{{0,0},{184,107}}</string>
+        <key>sourceSize</key>
+        <string>{184,107}</string>
+      </dict>
+    </dict>
+    <key>metadata</key>
+    <dict>
+      <key>format</key>
+      <integer>2</integer>
+      <key>realTextureFileName</key>
+      <string>sfx_11014_3.png</string>
+      <key>size</key>
+      <string>{384,384}</string>
+      <key>textureFileName</key>
+      <string>sfx_11014_3.png</string>
+    </dict>
+  </dict>
+</plist>

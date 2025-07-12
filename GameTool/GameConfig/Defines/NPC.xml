@@ -1,0 +1,6 @@
+<module name="">
+    <enum name="ENPCFuncType" unique="true" comment="NPC功能类型">
+        <var name="Invalid"                     value="0"       alias="无效"/>
+        <var name="OpenView"                    value="1"       alias="打开界面"/>
+    </enum>
+</module>
